@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Muscle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Super muscle branco.png">
+</head>
+
+<body>
+    <header> <!--Criar primeiro o header para iniciar a parte superior-->
+        <div class="principal">
+            <div class="alinhar">
+                <div class="logo">
+                    <img src="Super muscle.png" alt="Logotipo da loja" width="150px" height="150px">
+                </div>
+
+                <div id="divBusca">
+                    <img src="lupa.webp" height="30px" width="30px">
+                    <input type="text" id="txtBusca" placeholder="Buscar..." />
+                </div>
+
+                <div class="suporte">
+                    <img src="imgcarrinho.jpg" width="60px" height="60px">
+                    <h4>Carrinho (0)</h4>
+                </div>
+                <div>
+                    <img src="menu" width="70px" height="70px">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav>
+            <ul class="menuh">
+                <li><a href="#INFORMAÇÃO">✦ INFORMAÇÕES ✦</a></li>
+                <li><a href="#WHEY">✦ WHEY ✦</a></li>
+                <li><a href="#CREATINA">✦ CREATINA ✦</a></li>
+                <li><a href="#PRÉ-TREINO">✦ PRÉ-TREINO ✦</a></li>
+                <li><a href="#VITAMINAS">✦ VITAMINAS ✦</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <p class="borda">EM COMPRAS ACIMA DE R$200,00 GANHE UMA CAMISETA EXCLUSIVA</p>
+
+      <!--carrosel-->
+<div class="carousel-container">
+    <!-- Radio inputs for each slide -->
+    <input type="radio" id="slide1" name="carousel" checked>
+    <input type="radio" id="slide2" name="carousel">
+    <input type="radio" id="slide3" name="carousel">
+    <input type="radio" id="slide4" name="carousel">
+
+    <!-- Slides container -->
+    <div class="carousel-slides">
+        <div class="carousel-slide">
+            <img class="carousel-image" src="Banner de equipe de futebol com estilo dinâmico em azul e preto.png" alt="Image 1">
+        </div>
+        <div class="carousel-slide">
+            <img class="carousel-image" src="bannerdreams.png" alt="Image 2">
+        </div>
+        <div class="carousel-slide">
+            <img class="carousel-image" src="bannerfretegratis.png" alt="Image 3">
+        </div>
+        <div class="carousel-slide">
+            <img class="carousel-image" src="Os.png" alt="Image 4">
+        </div>
+    </div>
+
+    <!-- Carousel controls (dots) -->
+    <div class="carousel-controls">
+        <label for="slide1" class="carousel-dot"></label>
+        <label for="slide2" class="carousel-dot"></label>
+        <label for="slide3" class="carousel-dot"></label>
+        <label for="slide4" class="carousel-dot"></label>
+    </div>
+</div>
+
+<!-- Seção com cards -->
+<section class="secao4" id="sobre">
+    <div class="secao4-div">
+        <!-- Card 1 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="iconecaminhao.png" alt="icone de caminhão">
+            <h3>FRETE GRÁTIS</h3>
+            <p>Apartir de R$200,00</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="iconecartao.jpg" alt="icone de cartão">
+            <h3>PAGAMENTO</h3>
+            <p>Compras em até 6X sem juros</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="secao4-div-card">
+            <img decoding="async" src="iconecodigodebarras.jpg" alt="icone código de barras">
+            <h3>DESCONTO</h3>
+            <p>Compre em nossa loja com 10% OFF no boleto ou PIX</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <section>
+        <h1 class="titulosobre" id="INFORMAÇÃO">♦ Mas porquê optar pela SUPLEMENTAÇÃO?</h1>
+        <div class="just">
+            <div class="texto">
+                <h2>
+                    O uso de suplementos alimentares pode ajudar a melhorar a saúde e o bem-estar geral,
+                    fornecendo nutrientes e compostos bioativos que contribuem para o bom funcionamento do
+                    organismo e a prevenção de doenças. Os suplementos funcionam como um complemento da alimentação.
+                    Na maioria dos casos, são indicados para pessoas que apresentam uma carência muito grande de
+                    determinado nutriente.
+                </h2><br>
+                <br>
+                <br>
+                <div class="linha">
+                    <img src="imgbeneficios.png" alt="Imagens dos beneficos da suplementação" width="500px"
+                        height="500px" linear-gradiene(100deg, #000000, #00000020)>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <h2 class="whey" id="WHEY"> ▹WHEY◃</h2>
+        <img src="bannerwhey.png" width="1519px" height="620px">
+    </div>
+    <br>
+
+    <!--Aqui inicia-se a grid de PRODUTOS-->
+    <section class="container top-products">
+        <h1 class="titulosobre">PRODUTOS</h1>
+
+        <div class="container-options">
+            <span class="active">Destaques</span>
+            <span>Mais recentes</span>
+            <span>Mais vendidos</span>
+        </div>
+
+        <!--Container contando todos os produtos em grid-->
+        <div class="container-produtos">
+            <!--PRODUTO 1-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheychocolate.webp" alt="Whey de chocolate" />
+                    <span class="discount">-8%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE CHOCOLATE</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$73,60 <span>R$80,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 2-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheybaunilha.webp" alt="Whey de Baunilha" />
+                    <span class="discount">-10%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE BAUNILHA</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$72,00 <span>R$80,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 3-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheyisomorango.webp" alt="Whey de Morango (ISO)" />
+                    <span class="discount">-2%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE MORANGO (ISO)</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$78,40 <span>R$80,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 4-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheydecookie.jpg" alt="Whey de Cookies and Cream" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE COOKIES AND CREAM</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$84,15 <span>R$85,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 5-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheybuenissimo.webp" alt="Whey Bueníssimo" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY BUENÍSSIMO</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$84,15 <span>R$85,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 6-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheydepaçoca.jpg" alt="Whey de Paçoca" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE PAÇOCA</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$84,15 <span>R$85,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 7-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheydebrigadeiro.jpg" alt="Whey de Brigadeiro" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE BRIGADEIRO</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$84,15 <span>R$85,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 8-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="wheydeiogurte.webp" alt="Whey de Iogurte Grego de Morango" />
+                    <span class="discount">-2%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+
+                    <h3>WHEY DE IOGURTE GREGO DE MORANGO</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$88,20 <span>R$90,00</span></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <div>
+        <h2 class="whey" id="CREATINA"> ▹CREATINA◃</h2>
+        <img src="bannercrecre.png" width="1519px" height="620px">
+    </div>
+    <br>
+
+    <!--Aqui inicia-se a grid de PRODUTO 2-->
+    <section class="container top-products">
+        <h1 class="titulosobre">PRODUTOS</h1>
+
+        <div class="container-options">
+            <span class="active">Destaques</span>
+            <span>Mais recentes</span>
+            <span>Mais vendidos</span>
+        </div>
+
+        <!--Container contando todos os produtos em grid-->
+        <div class="container-produtos">
+            <!--PRODUTO 1-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="creatinamu.webp" alt="Creatina + Mu" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>CREATINA + MU</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$99,00 <span>R$100,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 2-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="creatinamax.jpg" alt=" Creatina Max Titanium " />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>CREATINA MAX TITANIUM</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$99,00 <span>R$100,00</span></p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div>
+        <h2 class="whey" id="PRÉ-TREINO"> ▹PRÉ-TREINO◃</h2>
+        <img src="Banner de bannerpretreino.png" width="1519px" height="620px">
+    </div>
+    <br>
+
+    <!--Aqui inicia-se a grid de PRODUTO 3-->
+    <section class="container top-products">
+        <h1 class="titulosobre">PRODUTOS</h1>
+
+        <div class="container-options">
+            <span class="active">Destaques</span>
+            <span>Mais recentes</span>
+            <span>Mais vendidos</span>
+        </div>
+
+        <!--Container contando todos os produtos em grid-->
+        <div class="container-produtos">
+            <!--PRODUTO 1-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="pretreinohaze.jpeg" alt="PRÉ-TREINO HAZE" />
+                    <span class="discount">-5%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>PRÉ-TREINO HAZE</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$104,5 <span>R$110,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 2-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="pretreinobope.webp" alt=" PRÉ-TREINO B.O.P.E (FRUTAS VERMELHAS)" />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3> PRÉ-TREINO B.O.P.E (FRUTAS VERMELHAS)</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$99,00 <span>R$100,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 3-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="pretreinoinsane.jpeg" alt=" PRÉ-TREINO INSANE CLOWN " />
+                    <span class="discount">-3%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>PRÉ-TREINO INSANE CLOWN</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$106,70 <span>R$110,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 4-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="pretreinodiaboverde.webp" alt=" PRÉ-TREINO DIABO VERDE " />
+                    <span class="discount">-1%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>PRÉ-TREINO DIABO VERDE</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$104,50 <span>R$110,00</span></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div></div>
+        <h2 class="whey" id="VITAMINAS"> ▹VITAMINAS◃</h2>
+        <img src="bannervitaminas.png" width="1519px" height="620px">
+    </div>
+    <br>
+
+    <!--Aqui inicia-se a grid de PRODUTO 4-->
+    <section class="container top-products">
+        <h1 class="titulosobre">PRODUTOS</h1>
+
+        <div class="container-options">
+            <span class="active">Destaques</span>
+            <span>Mais recentes</span>
+            <span>Mais vendidos</span>
+        </div>
+
+        <!--Container contando todos os produtos em grid-->
+        <div class="container-produtos">
+            <!--PRODUTO 1-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="vitaminab12.webp" alt="VITAMINA B12" />
+                    <span class="discount">-10%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>VITAMINA B12</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$40,5 <span>R$45,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 2-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="VITAMINAC.webp" alt="VITAMINA C" />
+                    <span class="discount">-10%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>VITAMINA C</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$40,50 <span>R$45,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 3-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="vitaminae.webp" alt="VITAMINA E" />
+                    <span class="discount">-3%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>VITAMINA E</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$40,50<span>R$45,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 4-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="vitaminak2.webp" alt="VITAMINA K2" />
+                    <span class="discount">-12%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>VITAMINA K2</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$40,50<span>R$45,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 5-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="gummyimunidade.webp" alt="GUMMY DE IMUNIDADE" />
+                    <span class="discount">-15%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>GUMMY DE IMUNIDADE</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$47,60<span>R$56,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 6-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="multivitaminico.webp" alt="MULTIVITAMINICO" />
+                    <span class="discount">-12%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>MULTIVITAMINICO</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$45,76<span>R$52,00</span></p>
+                </div>
+            </div>
+
+            <!--PRODUTO 7-->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="polivitaminicomastigavel.webp" alt="POLIVITAMINICO MASTIGÁVEL" />
+                    <span class="discount">-12%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>POLIVITAMINICO MASTIGÁVEL</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$45,76<span>R$52,00</span></p>
+                </div>
+            </div>
+
+             <!--PRODUTO 8-->
+             <div class="card-product">
+                <div class="container-img">
+                    <img src="colageno.webp" alt="COLÁGENO VERISOL + VIT A+ VIT C + VIT E + ZINCO" />
+                    <span class="discount">-12%</span>
+                    <div class="button-group">
+                        <span>
+                            <i class="fa-regular fa-eye"></i>
+                        </span>
+                        <span>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-code-compare"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h3>COLÁGENO VERISOL + VIT A+ VIT C + VIT E + ZINCO</h3>
+                    <span class="add-cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>
+                    <p class="price">R$48,40<span>R$55,00</span></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <h1 class="whey">LOCALIZAÇÃO <i class="fa-solid fa-location-dot travel"></i></h1>
+    <section class="local">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31793018.894942272!2d-73.16447107577311!3d-13.413332832511056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf9eef1aff1b%3A0x369b1ee3365f1339!2s220%20Nutrition!5e0!3m2!1spt-BR!2sbr!4v1726578618631!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:3px solid black; border-radius: 20px; box-shadow: 3.5rem; "
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <p class="whey"></p>
+
+    <footer class="footer">
+        <img src="pagamento.png" height="170px" width="1519px">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Informação de contato</p>
+                    <ul>
+                        <li>
+                            Av. Cel. Fernando Ferreira Leite, 1540 - Loja 147 R - Jardim California, Ribeirão Preto -
+                            SP, 14026-900
+                        </li>
+                        <li>Telefone: (16) 3659-9876</li>
+                        <li>Fax: (16) 3659-5339</li>
+                        <li>E-mail: supermuscle@.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                        <span class="pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Informações</p>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Informações de Entrega</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Contate-nos</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">SEGURANÇA</p>
+
+                    <ul>
+                        <li><img src="segurança.png"></li>
+                        <li>Copyright 2024 Suple Muscle LTDA - Todos os Direitos Reservados.
+                            "Preços e condições de pagamento apresentados neste "site" somente são válidos para as
+                            compras
+                            efetuadas no ato da sua exibição. *Condições de pagamento à vista somente para boleto ou
+                            pix.</li>
+
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">newsletter</p>
+
+                    <div class="content">
+                        <p>
+                            Se inscreva para ter informações e ofertas exclusivas sobre a Super Muscle
+                        </p>
+                        <input type="email" placeholder="Insira seu email aqui">
+                        <button>Inscreva-se</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desenvolvido por Super Muscle &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
